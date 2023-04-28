@@ -60,10 +60,18 @@ else if (playerSelection == "Paper" && computerSelection == "Scissors")
 {
     return "You Lose! Scissors beats Paper"
 }
-
-
 }
 
-const selection = getPlayerChoice();
+
+
+
+function game (){
+    for (let i = 0; i < 7; i ++ ){
+        const selection = getPlayerChoice();
 const playerSelection = selection.charAt(0).toUpperCase() + selection.slice(1).toLowerCase();
 const computerSelection = getComputerChoice();
+      
+    console.log( playRound(playerSelection, computerSelection))
+    }
+}
+
