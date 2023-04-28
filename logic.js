@@ -11,3 +11,16 @@ function getComputerChoice () {
 }
 
 const random = getComputerChoice(); 
+
+function getPlayerChoice (){
+    const playerChoice = prompt("Make your Choice (Rock, Paper or Scissors)")
+    return playerChoice
+}
+
+function playRound(playerSelection, computerSelection){
+    return (
+        //if clause to check if you won
+        if 
+    )
+}
+
